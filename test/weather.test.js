@@ -1,3 +1,4 @@
+// test/weather.test.js
 const getWeather = require('../src/weather');
 
 describe('Weather CLI', () => {
@@ -9,6 +10,6 @@ describe('Weather CLI', () => {
   });
 
   test('throws an error for invalid city', async () => {
-    await expect(getWeather('InvalidCityName12345')).rejects.toThrow();
+    await expect(getWeather('InvalidCityName12345')).rejects.toThrow('City not found');
   });
 });

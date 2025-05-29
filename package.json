@@ -2,11 +2,12 @@
   "name": "ica1-cicd-weather",
   "version": "1.0.0",
   "homepage": "https://anilthapaa.github.io/CI-CD-Group-Project/",
-  "scripts": {
-    "inject": "node scripts/inject-api-key.js,
-      "test": "echo \"No test specified!!!\" && 
-    exit 1"
-  },
+  
+ "scripts": {
+  "inject": "node scripts/inject-api-key.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+  
   "dependencies": {
     "dotenv": "^16.0.0"
   }

@@ -1,4 +1,5 @@
 // src/weather.js
+import fetch from 'node-fetch';
 const fetch = require('node-fetch');
 const apiKey = '8c8530f0f5f0040c40f60275a4355cd1'; // Will be replaced during CI
 
